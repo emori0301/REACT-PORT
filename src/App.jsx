@@ -4,6 +4,7 @@ import Home from './component/Home';
 import ContactForm from './component/ContactForm';
 import GamePage from './component/GamePage';
 import WebappPage from './component/WebappPage';
+import SitePage from './component/SitePage';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path={`/GamePage`} element={<GamePage />} />
           <Route path={`/ContactForm/`} element={<ContactForm />} />
           <Route path={`/WebappPage/`} element={<WebappPage />} />
+          <Route path={`/SitePage/`} element={<SitePage />} />
         </Routes>
       </Router>
     </>

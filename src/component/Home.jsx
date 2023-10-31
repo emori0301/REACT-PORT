@@ -134,6 +134,9 @@ function Home() {
                       このwebサイトはreact viteとtailwindで作りました。レスポンシブをcssではなく、
                       HTMLに直接記述しています。
                     </p>
+                    <div className="flex mt-3 text-green-500 items-center">
+                        <Link to={`/SitePage`} >もっと見る ☞</Link>
+                    </div>
                   </div>
                 </div>
               </div>
