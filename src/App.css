@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "komadori";
+  src: url("./font/komadori-mini.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "レトロゴシック";
+  src: url("./font/ShinRetroMaruGothic-R.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  font-family: "レトロゴシック";
+  background: #F2D8B3;
+}
+
+a {
+  font-family: "komadori";
+}
